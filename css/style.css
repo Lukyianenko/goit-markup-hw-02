@@ -1,0 +1,122 @@
+/* цвет акцент #2196F3 
+белый цвет #FFFFFF
+цвет фона секции темный #2F303A 
+цвет фона секции серый #F5F4FA 
+ цвет фона секции беловатый #F5F5F5
+ цвет текста #212121
+ цвет абзаца #757575
+*/
+
+:root {
+    --accent-color: #2196F3;
+    --heder-bg-color: #FFFFFF;
+    --section-hero-color: #2F303A;
+    --section-one-color: #F5F5F5;
+    --section-two-color: #2F303A;
+    --primery-text-color: #212121;
+    --paragraph-text-color: #757575;
+}
+body {
+
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+
+.header {
+    background-color: var(--heder-bg-color);
+}
+
+/* logo */
+
+.logo {
+    color: #000000;
+}
+
+.logo-item  {
+    color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--primery-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.auth-nav .link {
+    color: var(--paragraph-text-color);
+}
+.auth-nav .link:hover {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--section-hero-color);
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/* section */
+
+.section-title  {
+    color: var(--primery-text-color);
+}
+
+/* features */
+
+.features-list .title {
+    color: var(--primery-text-color);
+}
+
+.features-list .text {
+    color: var(--paragraph-text-color);
+}
+
+/* Our team */
+
+.team-list .title {
+    color: var(--primery-text-color);
+}
+
+.team-list .text{
+    color: var(--paragraph-text-color);
+}
+
+/* footer */
+
+.page-footer {
+    background-color: var(--section-hero-color);
+    }
+
+.logo.footers  {
+    color: #FFFFFF;
+}
+
+.page-footer .text {
+    color: #FFFFFF;
+}
+
+.page-footer .link {
+    color: var(--paragraph-text-color);
+}
+
+.page-footer .link:hover,
+.page-footer .link:focus {
+    color: var(--accent-color);
+}
+
