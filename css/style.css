@@ -164,7 +164,7 @@ body {
 }
 
 .page-footer .text {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 
     font-style: normal;
     font-size: 14px;
@@ -190,3 +190,39 @@ body {
 /* PORTFOLIO
  */
 
+ /* filtr */
+
+.button-filtr {
+    color: #000000;
+    background-color: var(--section-two-color);
+    cursor: pointer;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em
+}
+
+.button-filtr:hover,
+.button-filtr:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/* Works */
+
+.portfolio-works .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-works .text {
+    color: var(--paragraph-text-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+}
