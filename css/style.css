@@ -76,7 +76,7 @@ body {
 
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -106,10 +106,10 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     letter-spacing: 0.06em;
 }
 
@@ -143,14 +143,13 @@ body {
 .team-list .title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19x;
+    line-height: 1.19;
     }
 
 .team-list .text{
     color: var(--paragraph-text-color);
 
-    font-size: 16px;
-    line-height: 1.19;
+     line-height: 1.19;
 }
 
 /* footer */
@@ -164,7 +163,7 @@ body {
 }
 
 .page-footer .text {
-    color: rgba(255, 255, 255, 0.6);
+    color: #FFFFFF;
 
     font-style: normal;
     font-size: 14px;
@@ -172,7 +171,7 @@ body {
 }
 
 .page-footer .link {
-    color: var(--paragraph-text-color);
+    color: rgba(255, 255, 255, 0.6);;
 
     font-style: normal;
     font-size: 14px;
@@ -197,7 +196,7 @@ body {
     background-color: var(--section-two-color);
     cursor: pointer;
 
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
