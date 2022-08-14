@@ -222,6 +222,5 @@ body {
 .portfolio-works .text {
     color: var(--paragraph-text-color);
 
-    font-size: 16px;
     line-height: 1.88;
 }
